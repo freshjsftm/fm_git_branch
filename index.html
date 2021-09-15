@@ -53,27 +53,22 @@
 
     </fieldset>
 
-    <select name="town" size="2" multiple>
-      <optgroup label="name 1">
-        <option value="1">Zp</option>
-        <option value="2" selected>Kv</option>
-        <option value="3">Dn</option>
-        <option value="1">Zp</option>
-        <option value="2">Kv</option>
-        <option value="3">Dn</option>
-      </optgroup>
-      <optgroup label="name 1">
-        <option value="1">Zp</option>
-        <option value="2">Kv</option>
-        <option value="3">Dn</option>
-        <option value="1">Zp</option>
-        <option value="2">Kv</option>
-        <option value="3">Dn</option>
-      </optgroup>
-    </select>
-    <!-- <label><span>Town</span>
-      <input  autofocus type="text"  placeholder="Town" name="town" >
-    </label> -->
+
+    <label><span>Town</span>
+      <datalist id="town_list">
+        <option value="Zp">
+        <option value="2">
+        <option value="Dnipro">
+        <option value="4">
+        <option value="Doneck">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+      </datalist>
+
+      <input  autofocus type="text"  placeholder="Town" name="town" list="town_list">
+    </label>
 
 
     <div class="btn-block">
