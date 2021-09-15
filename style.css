@@ -6,9 +6,8 @@ form{
   flex-direction: column;
   justify-content: space-around;
   max-width: 300px;
-  min-height: 200px;
+  min-height: 50vh;
   margin: auto;
-  /* border: 2px solid cadetblue; */
 }
 input:focus{
   outline-color: coral;
@@ -16,4 +15,7 @@ input:focus{
 label{
   display: flex;
   flex-direction: column;
+}
+.btn-block{
+  text-align: center;
 }

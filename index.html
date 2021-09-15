@@ -9,15 +9,88 @@
 </head>
 <body>
 
-  <form action="#">
-    <label><span>User name</span>
-      <input autofocus type="text" placeholder="User name">
-    </label>
-    <label><span>password</span>
-      <input type="password">
-    </label>
-    <input type="submit" value="Submit">
+  <form action="" method="POST">
+
+    <!-- 
+    <input type="color"> 
+    <input type="date">
+    <input type="file">
+    <input type="hidden" name="security" value="123">
+    <input type="number" min="100" max="300" step="50">
+    <input type="range"  min="100" max="300" step="50">
+    <input type="search">
+    <input type="url">
+  -->
+
+   
+
+
+    
+
+
+
+
+
+
+
+
+    <fieldset>
+      <legend>User name</legend>
+        <label><span>First name</span>
+          <input  autofocus type="text"  placeholder="First name" name="firstName" >
+        </label>
+        <label><span>Last name</span>
+          <input  type="text"  placeholder="Last name" name="lastName" >
+        </label>
+    </fieldset>
+    <fieldset>
+      <legend>Personal data</legend>
+      <label><span>Email</span>
+        <input  type="text" placeholder="Email" name="email" autocomplete="email" >
+      </label>
+      <label><span>Password</span>
+        <input type="password">
+      </label>
+
+      <label><span>Male</span>
+        <input value="1" type="radio" name="state" required checked>
+      </label>
+      <label><span>Female</span>
+        <input value="0" type="radio" name="state">
+      </label>
+     </fieldset>  
+     <fieldset>
+      <legend>Optional data</legend>
+      <label><span>Are you adult?</span>
+        <input value="true" type="checkbox" name="adult"></label>
+    
+        <label><span>HTML</span>
+          <input value="HTML" type="checkbox" name="course"></label>
+          <label><span>CSS</span>
+            <input value="CSS" type="checkbox" name="course"></label>        
+            <label><span>JS</span>
+          <input value="JS" type="checkbox" name="course"></label>
+    <textarea name="" rows="5"></textarea>
+    </fieldset>
+    <div class="btn-block">
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+      <input type="button" value="Click me">
+    </div>
+
+
   </form>
 
 </body>
 </html>
+
+<!-- <input type="email">
+<input type="button">
+<input type="checkbox">
+<input type="password">
+<input type="radio">
+<input type="reset">
+<input type="submit">
+<input type="text">  -->
+
+
