@@ -5,23 +5,26 @@ body{
   background-color: aquamarine;
 }
 .users-cards{
-
+  /* min-height: 80vh; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-content: space-around; */
 }
-
 .user-card{
   min-width: 300px;
   width: 100%;
-  max-width: 600px;
-  min-height: 400px;
+  max-width: 400px;
+  min-height: 300px;
   display: flex;
-  align-items: stretch;
   background-color: azure;
+  margin-bottom: 20px;
 }
 .user-photo{
-  width: 50%;
+  width: 60%;
   object-fit: cover;
   clip-path: polygon(0 0, 100% 0, 68% 100%, 0% 100%);
 }
 .user-info{
-  text-align: center;
+  margin: auto;
 }
