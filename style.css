@@ -1,3 +1,27 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: aquamarine;
+}
+.users-cards{
+
+}
+
+.user-card{
+  min-width: 300px;
+  width: 100%;
+  max-width: 600px;
+  min-height: 400px;
+  display: flex;
+  align-items: stretch;
+  background-color: azure;
+}
+.user-photo{
+  width: 50%;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 68% 100%, 0% 100%);
+}
+.user-info{
+  text-align: center;
 }
