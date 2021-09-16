@@ -2,29 +2,24 @@
   box-sizing: border-box;
 }
 body{
-  background-color: aquamarine;
-}
-.users-cards{
-  /* min-height: 80vh; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /* align-content: space-around; */
-}
-.user-card{
-  min-width: 300px;
-  width: 100%;
-  max-width: 400px;
-  min-height: 300px;
-  display: flex;
   background-color: azure;
-  margin-bottom: 20px;
 }
-.user-photo{
-  width: 60%;
-  object-fit: cover;
-  clip-path: polygon(0 0, 100% 0, 68% 100%, 0% 100%);
+h1{
+  font-size: 3em;
+  column-span: all;
+  text-align: center;
 }
-.user-info{
-  margin: auto;
+.content{
+  max-width: 1200px;
+  min-height: 80vh;
+  margin : auto;
+
+  columns: 3  200px; 
+   /* column-count: 4;
+  column-width: 300px; */
+  
+  column-rule: cadetblue dotted 5px;
+  column-gap: 4em;
+  column-fill: auto;
+  text-align: justify;
 }
