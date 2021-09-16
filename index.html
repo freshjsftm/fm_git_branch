@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="wrap">
-  <section class="register">
-    <h1 class="register-heading">register</h1>
+  <section class="register flex-column">
+    <h1 class="register-heading"> 
+      <span class="overflow-text width-text">register</span> 
+    </h1>
     <p>Create your account. It's free and only takes a minute.</p>
-    <form action="" class="register-form">
+    <form action="" class="register-form flex-column">
       <div class="full-name">
         <input type="text" name="firstName" placeholder="first name">
         <input type="text" name="lastName" placeholder="last name">
@@ -28,7 +29,7 @@
         & 
         <a href="">Privacy Policy.</a>
       </label>
-      <button type="submit">register now</button>
+      <button type="submit" class="btn overflow-text">register now</button>
     </form>
   </section>
   <p>Already have an account? <a href="#">Sign in</a></p>
